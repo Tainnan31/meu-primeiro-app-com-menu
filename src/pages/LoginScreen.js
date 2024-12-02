@@ -24,7 +24,7 @@ const LoginScreen = ({ navigation }) => {
         <ActivityIndicator size="large" color="gray" />
       ) : (
         <>
-          <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 20 }}>Login</Text>
+          <Text style={{ fontSize: 35, fontWeight: 'bold', marginBottom: 20 }}>Login</Text>
           <TextInput
             placeholder="Email"
             value={email}
